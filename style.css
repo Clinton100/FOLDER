@@ -1,0 +1,21 @@
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+*{
+    border-radius: 5px;
+}
+
+.red-border-color{
+    border-color: red;
+}
+
+.green-border-color{
+    border-color: green;
+}
+
+input::placeholder{
+    color: black
+}
